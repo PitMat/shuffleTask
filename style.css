@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -18,9 +19,16 @@ body{
 }
 
 .text{
-    width: 90%;
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 50vh;
     background-color: chartreuse;
+}
+
+.title{
+    font-size: 4.5em;
 }
 
 .itembox{
